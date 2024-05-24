@@ -1,0 +1,126 @@
+body {
+    font-family: 'Poetsen One', cursive;
+    transition: background-color 0.3s ease;
+    color: white;
+    margin: 0;
+    background-image: url('caminho/para/sua/imagem.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input[type="text"],
+  input[type="text"]::placeholder,
+  button {
+    font-family: 'Poetsen One', cursive;
+  }
+
+#numero {
+    font-size: 16px;
+    padding: 8px;
+}
+
+button {
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-left: 8px;
+}
+
+.back {
+    background-color: white;
+    width: 300px;
+    height: 470px;
+    margin-top: 18%;
+    border-radius: 8px;
+    background-color: #3b3b3b;
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.input {
+    color: white;
+    background-color: #3b3b3b;
+    width: 100%;
+    max-width: 220px;
+    height: 30px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid rgb(255, 255, 255);
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+}
+
+.input:hover {
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px -17px;
+}
+
+.input:active {
+    transform: scale(0.95);
+}
+
+.input:focus {
+    border: 2px solid white;
+}
+
+.button {
+    height: 50px;
+    margin: 5px;
+    width: 120px;
+    background: #333;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: Consolas, Courier New, monospace;
+    border: solid #ffffff 1px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    -webkit-transition: 500ms;
+    transition: 500ms;
+    border-radius: 5px;
+
+}
+
+.button:hover {
+    -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #a8a8a8;
+    box-shadow: 1px 1px 13px #4e4e4e, -1px -1px 13px #a7a7a7;
+    color: #d6d6d6;
+    -webkit-transition: 500ms;
+    transition: 500ms;
+}
+
+.button:active {
+    -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+    box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+    color: #d6d6d6;
+    -webkit-transition: 100ms;
+    transition: 100ms;
+}
+
+h1 {
+    color: white;
+}
+
+label {
+    font-size: 30px;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    width: -20%;
+    font-size: 1.15rem;
+    padding: 0.675em 6em 0.675em 1em;
+    background-color: #333;
+    border: 1px solid #caced1;
+    border-radius: 0.25rem;
+    color: #ffffff;
+    cursor: pointer;
+  }

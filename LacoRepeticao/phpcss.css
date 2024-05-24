@@ -1,0 +1,18 @@
+p{
+    font-family: 'Poetsen One', cursive;
+    color: white;
+}
+
+div{
+    width: max-content;
+    height: max-content;
+    margin-top: 18%;
+    border-radius: 8px;
+    background-color: #3b3b3b;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Poetsen One', cursive;
+    color: white;
+}
